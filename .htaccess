@@ -1,0 +1,5 @@
+AddDefaultCharset ANSI
+RewriteEngine On
+Options Indexes Includes MultiViews FollowSymLinks
+Options -Indexes
+RewriteRule ^(.*)c/(.*)$  /art.php?alias=$2

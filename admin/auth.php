@@ -8,7 +8,7 @@
 	$mysqli->query ("SET NAMES 'utf-8'");
 
 	$pass = $_POST["pass"];
-	$pass = md5($pass."oqiwrcgyump2345");
+	$pass = md5($pass."bobr");
 	
 	$result = $mysqli->query("SELECT * FROM `admin` WHERE `pass` = '$pass'");
 	$admin = $result->fetch_assoc();
